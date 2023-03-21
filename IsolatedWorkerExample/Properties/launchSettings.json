@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "IsolatedWorkerExample": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7116",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
